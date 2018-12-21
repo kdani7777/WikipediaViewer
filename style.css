@@ -1,0 +1,94 @@
+.slogan , .search {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-size: 200%;
+  color: #f4425c;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.search-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-input {
+  display: none;
+  border-radius: 25px;
+  line-height: 30px;
+  border: 3px solid #f4425c;
+  width: 0px;
+}
+
+.search-input::-webkit-input-placeholder {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.clear-btn {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.random-article {
+  text-align: center;
+  position: relative;
+  top: 230px;
+  font-size: 130%;
+  color: #f4425c;
+}
+
+.random-article a {
+  text-decoration: none;
+  color: #f4425c;
+}
+
+.kush {
+  text-align: center;
+  position: relative;
+  top: 500px;
+  color: #f4425c;
+  font-size: 130%;
+}
+
+.individual-result {
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  width: 80%;
+  border: 1px solid black;
+  color: #f4425c;
+}
+
+.individual-result:hover {
+  cursor: pointer;
+  border-left: 5px solid #f4425c;
+}
+
+.description {
+  color: #000000;
+  opacity: 0.7;
+  font-size: 60%;
+}
+
+.link {
+  text-decoration: none !important;
+}
+
+.error {
+  position: relative;
+  top: 100px;
+  font-style: italic;
+}
